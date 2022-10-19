@@ -141,6 +141,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         autostartMenuItem.state = SettingsHelper.shared.isAutostartEnable ? .on : .off
         statusBarMenu.addItem(autostartMenuItem)
         
+        //Temporary disable LayoutSwitcher
+        statusBarMenu.addItem(NSMenuItem.separator())
+        let enabledMenuItem = NSMenuItem(title: "Disable", action: #selector(applicationDisable), keyEquivalent: "d")
+        enabledMenuItem.state = .off
+        statusBarMenu.addItem(enabledMenuItem)
         
         // Define other menu items
         statusBarMenu.addItem(NSMenuItem.separator())
