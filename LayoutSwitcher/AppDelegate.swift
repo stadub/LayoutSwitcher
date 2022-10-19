@@ -29,7 +29,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         // Check security access to init event monitor
         if isApplicationHasSecurityAccess() {
-            //initLanSwitchEventMonitor()
+            initLanSwitchEventMonitor()
             initWinEditEventMonitor()
         } else {
             let securityAlert = NSAlert()
