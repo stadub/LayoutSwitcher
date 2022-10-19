@@ -3,7 +3,7 @@ StandWithUkraine:
 
 
 # About
-LayoutSwitcher is open-source application that allows you to change keyboard layout using shortcuts that are not alloved by MacOS: Fn + Shift ⇧, Option ⌥ + Shift ⇧, Command ⌘ + Shift ⇧ or Control ⌃ + Shift ⇧. In some sence it an alternative for the Punto Switcher or Karabiner if you are using it for similar purpose, because both are kind of overkill for this.
+LayoutSwitcher is an open-source application that allows you to change keyboard layout using shortcuts that are not permitted by MacOS: Fn + Shift ⇧, Option ⌥ + Shift ⇧, Command ⌘ + Shift ⇧ , or Control ⌃ + Shift ⇧. In some sense, it is an alternative to the Punto Switcher or Karabiner if you are using it for a similar purpose because both are kind of overkill.
 
 
 ![LayoutSwitcher](LayoutSwitcher.png)
